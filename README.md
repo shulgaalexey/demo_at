@@ -8,7 +8,7 @@ Demonstrating AT for API web service
 ## Pre-requisites
 
 ```
-pip install -r requirements.txt`
+pip install -r requirements.txt
 ```
 
 

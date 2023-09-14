@@ -11,10 +11,10 @@ def user_with_valid_credentials(context, valid_or_not):
     context.password = "valid_password" + postfix[valid_or_not] 
 
 
-@given('a user with invalid credentials')
-def user_with_invalid_credentials(context):
-    context.username = "invalid_username"
-    context.password = "invalid_password"
+# @given('a user with invalid credentials')
+# def user_with_invalid_credentials(context):
+#     context.username = "invalid_username"
+#     context.password = "invalid_password"
 
 
 @when('the user sends signin request')
